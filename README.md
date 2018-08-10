@@ -43,7 +43,8 @@ cd scripts
 #初始化配置
 bash initcfg.sh
 
-#编辑配置文件
+#编辑配置文件,cd到config目录
+cd ../configs/
 nano userapiconfig.py
 
 API_INTERFACE 的选择
